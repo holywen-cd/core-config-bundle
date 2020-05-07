@@ -51,7 +51,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "holywen-cd"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -70,10 +70,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAwojmYbZEvqmPozFvgJ6jVjvVCV+uLlzeKidGnoW2FrD1wAeTWzP8nLIsXsSDuKpqeOq4E+bY+aIGJxM7Us1MYJA==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "holywen"
+              password: "{AQAAABAAAAAwojmYbZEvqmPozFvgJ6jVjvVCV+uLlzeKidGnoW2FrD1wAeTWzP8nLIsXsSDuKpqeOq4E+bY+aIGJxM7Us1MYJA==}"
